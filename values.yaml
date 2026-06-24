@@ -12,9 +12,9 @@ service:
 
 resources:
   limits:
-    memory: 128Mi
+    memory: 1Gi
   requests:
-    memory: 64Mi
+    memory: 1Gi
 
 ingress:
   enabled: false
